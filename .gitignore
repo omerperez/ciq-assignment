@@ -1,0 +1,42 @@
+/node_modules
+# Compiled Python files
+__pycache__
+
+# Virtual environment
+venv/
+env/
+
+# Log files
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Dependency directories
+# (You can modify these if you're using a different package manager)
+pip-requirements/
+pipenv/
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment variables file (if using .env)
+.env
+
+# FastAPI auto-generated documentation files (if using redoc or swagger UI)
+docs/
+openapi.json
+
+# Testing databases (if using databases for testing)
+test_db.sqlite
+
+# Dependency lock files
+Pipfile.lock
+poetry.lock
+
+# Miscellaneous
+*.swp
+.DS_Store
