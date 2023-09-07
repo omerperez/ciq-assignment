@@ -14,6 +14,7 @@ env/
 .idea/
 
 # Dependency directories
+
 # (You can modify these if you're using a different package manager)
 pip-requirements/
 pipenv/
