@@ -1,43 +1,44 @@
-/node_modules
-# Compiled Python files
-__pycache__
-
-# Virtual environment
-venv/
-env/
-
-# Log files
+logs
 *.log
+*.log.*
+npm-debug.log*
+build
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+*.lcov
+.nyc_output
+.grunt
+bower_components
+.lock-wscript
+build/Release
 
-# Editor/IDE files
+node_modules/
+jspm_packages/
+web_modules/
+
+.npm
+.eslintcache
+
+.env.*
+
+.cache
+.parcel-cache
+
+.cache/
+.temp
+.cache
+.vscode-test
+/venv/
+/env/
+/requirements.txt
+__pycache__/
+*.tmp
 .vscode/
 .idea/
-
-# Dependency directories
-
-# (You can modify these if you're using a different package manager)
-pip-requirements/
-pipenv/
-
-# Compiled files
 *.pyc
-*.pyo
-__pycache__/
-
-# Environment variables file (if using .env)
-.env
-
-# FastAPI auto-generated documentation files (if using redoc or swagger UI)
-docs/
-openapi.json
-
-# Testing databases (if using databases for testing)
-test_db.sqlite
-
-# Dependency lock files
-Pipfile.lock
-poetry.lock
-
-# Miscellaneous
-*.swp
-.DS_Store
+/generated/
