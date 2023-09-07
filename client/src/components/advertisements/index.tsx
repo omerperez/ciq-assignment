@@ -43,7 +43,7 @@ const AdSlot: FC<AdSlotProps> = ({ slotName, children, isFakeAds }) => {
       onClick={onClick}
     >
       {children}
-      <p style={{ textTransform: "capitalize" }}>
+      <p>
         {slotName} Ad Slot
         <br />
         navigate to {adNavigatePath[slotName]}

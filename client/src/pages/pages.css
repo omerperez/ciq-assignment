@@ -43,3 +43,7 @@
   font-weight: bolder;
   letter-spacing: 1.5px;
 }
+
+.underline {
+  text-decoration: underline;
+}

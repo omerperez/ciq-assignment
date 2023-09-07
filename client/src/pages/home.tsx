@@ -8,7 +8,7 @@ const Home: FC = () => {
       <h1>{HOME_PAGE.TITLE}</h1>
       <div className="page-content">
         <h2>{HOME_PAGE.INTRODUCTION}</h2>
-        <h2 style={{ textDecoration: "underline" }}>{HOME_PAGE.SUB_TITLE}</h2>
+        <h2 className="underline">{HOME_PAGE.SUB_TITLE}</h2>
         <KeyFeatureRow
           title="Design"
           text={`A clean UI created using Material-UI (Mui) and custom
@@ -50,7 +50,7 @@ const Home: FC = () => {
         />
         <KeyFeatureRow
           title="Data Visualization"
-          text={`Comming Soon...`}
+          text={`Commig Soon...`}
           imagesSrc={[IMAGES.DASHBOARD_ICON]}
         />
       </div>

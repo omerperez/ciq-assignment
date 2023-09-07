@@ -8,15 +8,7 @@ const Footer: FC<FooterProps> = ({ children }) => {
   return (
     <>
       <footer>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            margin: "15px 0 30px 0",
-          }}
-        >
-          {children}
-        </div>
+        <div className="child-footer">{children}</div>
         <div>
           {LAYOUT.FOOTER_RESERVED_TEXT}
           <br />

@@ -12,6 +12,7 @@ Before you begin, make sure you have the following software installed on your sy
 # Install project dependencies:
 
 npm install
+If react-prebid's library throws an error enter the command - npm install -force
 
 # Running the Project
 

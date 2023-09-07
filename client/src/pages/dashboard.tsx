@@ -4,7 +4,7 @@ const Dashboard: FC = () => {
   return (
     <div>
       <h1>Dashboard</h1>
-      <div className="dashboard-page">Comming Soon...</div>
+      <div className="dashboard-page">Coming Soon...</div>
     </div>
   );
 };

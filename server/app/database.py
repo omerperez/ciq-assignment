@@ -6,8 +6,6 @@ from sqlalchemy.engine.reflection import Inspector
 
 db_url = config("DB_URL")
 
-print("DB_URL:", db_url)
-
 engine = create_engine(db_url)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

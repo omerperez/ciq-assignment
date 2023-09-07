@@ -1,4 +1,4 @@
-#!/Users/omerperez/server/env/bin/python3
+#!/Users/omerperez/Interviews/ciq-assignment/server/env/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

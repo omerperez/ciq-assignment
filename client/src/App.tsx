@@ -26,16 +26,16 @@ const TrackedApp = track(
   { Component: "Apps" },
   {
     dispatch: (data) => {
-      console.log(data);
+      console.debug(data);
       const endpoint =
         data.event === TrackEventType.ApplicationUserData ? "users" : "events";
       workerScript.postMessage(
         endpoint,
         localStorage.getItem("uniqueId") || "",
-        data
+        data,
       );
     },
-  }
+  },
 )(App);
 
 export default TrackedApp;

@@ -34,7 +34,7 @@ web_modules/
 .cache
 .vscode-test
 /venv/
-/env/
+server/env/
 /requirements.txt
 __pycache__/
 *.tmp

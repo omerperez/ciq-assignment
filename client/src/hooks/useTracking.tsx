@@ -32,7 +32,7 @@ export function useTracking() {
   const { trackEvent: reactTrackEvent } = useReactTracking();
 
   const {
-    navigator: { language, geolocation, onLine: on_line },
+    navigator: { language, onLine: on_line },
     screen: { width, height },
   } = window;
 

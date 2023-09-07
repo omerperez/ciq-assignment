@@ -13,12 +13,7 @@ self.addEventListener("message", (event) => {
     endpoint = `events/${data.type}`;
   }
 
-  self.axios
-    .post(`${BASE_URL}/${endpoint}`, data)
-    .then((res) => {
-      console.info("Event data saved");
-    })
-    .catch((error) => {
-      console.log("Response error: ", error);
-    });
+  try {
+    self.axios.post(`${BASE_URL}/${endpoint}`, data);
+  } catch (error) {}
 });
