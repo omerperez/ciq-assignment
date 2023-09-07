@@ -1,0 +1,257 @@
+{
+  "events": [
+    {
+      "Component": "Apps",
+      "userId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "funComponent": "My Projects Page",
+      "event": "pageLoad",
+      "page": "My Projects",
+      "timeStamp": "2023-09-05T14:09:57.599Z",
+      "currentPage": "/my-projects/",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "endpoint": "events",
+      "id": 1
+    },
+    {
+      "Component": "Apps",
+      "userId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "funComponent": "Contact Page",
+      "event": "pageLoad",
+      "page": "Contact",
+      "timeStamp": "2023-09-05T14:09:58.596Z",
+      "currentPage": "/contact",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "endpoint": "events",
+      "id": 2
+    },
+    {
+      "Component": "Apps",
+      "userId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "funComponent": "My Projects Page",
+      "event": "pageLoad",
+      "page": "My Projects",
+      "timeStamp": "2023-09-05T14:09:58.737Z",
+      "currentPage": "/my-projects/",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "endpoint": "events",
+      "id": 3
+    },
+    {
+      "Component": "Apps",
+      "userId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "funComponent": "My Projects Page",
+      "event": "pageLoad",
+      "page": "My Projects",
+      "timeStamp": "2023-09-05T14:10:00.405Z",
+      "currentPage": "/my-projects/",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "endpoint": "events",
+      "id": 4
+    },
+    {
+      "Component": "Apps",
+      "userId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "funComponent": "Sidebar Button",
+      "event": "click",
+      "timeStamp": "2023-09-05T14:10:03.028Z",
+      "currentPage": "/my-projects/",
+      "diviceData": {
+        "language": "en-US",
+        "geolocation": {},
+        "onLine": true,
+        "screenSize": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "customData": {
+        "from": "/my-projects/",
+        "to": "/"
+      },
+      "clientId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "endpoint": "events",
+      "id": 5
+    },
+    {
+      "Component": "Apps",
+      "userId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "funComponent": "Home Page",
+      "event": "pageLoad",
+      "page": "Home",
+      "timeStamp": "2023-09-05T14:10:03.044Z",
+      "currentPage": "/",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "e8fe5ef4-890b-4c6f-8e2c-44d2e07f0c55",
+      "endpoint": "events",
+      "id": 6
+    },
+    {
+      "Component": "Apps",
+      "userId": "424816bc-ebb3-49b7-a41f-9946ae87c662",
+      "funComponent": "AdSlot header",
+      "event": "mouseover",
+      "timeStamp": "2023-09-05T14:20:16.906Z",
+      "currentPage": "/my-projects",
+      "diviceData": {
+        "language": "en-US",
+        "geolocation": {},
+        "onLine": true,
+        "screenSize": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "customData": {
+        "clientX": 675,
+        "clientY": 63,
+        "adSlot": "header"
+      },
+      "clientId": "424816bc-ebb3-49b7-a41f-9946ae87c662",
+      "endpoint": "events",
+      "id": 7
+    },
+    {
+      "Component": "Apps",
+      "userId": "",
+      "funComponent": "My Projects Page",
+      "event": "pageLoad",
+      "page": "My Projects",
+      "timeStamp": "2023-09-05T14:20:25.726Z",
+      "currentPage": "/my-projects/",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "endpoint": "events",
+      "id": 8
+    },
+    {
+      "Component": "Apps",
+      "userId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "funComponent": "My Projects Page",
+      "event": "pageLoad",
+      "page": "My Projects",
+      "timeStamp": "2023-09-05T14:22:34.705Z",
+      "currentPage": "/my-projects/",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "endpoint": "events",
+      "id": 9
+    },
+    {
+      "Component": "Apps",
+      "userId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "funComponent": "Contact Page",
+      "event": "pageLoad",
+      "page": "Contact",
+      "timeStamp": "2023-09-05T14:22:35.380Z",
+      "currentPage": "/contact",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "endpoint": "events",
+      "id": 10
+    },
+    {
+      "Component": "Apps",
+      "userId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "funComponent": "My Projects Page",
+      "event": "pageLoad",
+      "page": "My Projects",
+      "timeStamp": "2023-09-05T14:22:34.905Z",
+      "currentPage": "/my-projects/",
+      "language": "en-US",
+      "geolocation": {},
+      "onLine": true,
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "customData": {},
+      "clientId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "endpoint": "events",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "Component": "Apps",
+      "userId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "event": "userData",
+      "timeStamp": "2023-09-05T14:20:25.725Z",
+      "deviceType": "Desktop",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+      "platform": "Win32",
+      "language": "en-US",
+      "geolocation": {},
+      "cookieEnabled": true,
+      "doNotTrack": null,
+      "onLine": true,
+      "mediaDevices": {},
+      "screenSize": {
+        "width": 1920,
+        "height": 1080
+      },
+      "clientId": "02d10f40-421a-4a57-9f7b-d3778dadb0a2",
+      "endpoint": "users",
+      "id": 1
+    }
+  ]
+}

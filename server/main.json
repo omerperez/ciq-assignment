@@ -1,0 +1,115 @@
+from fastapi import FastAPI
+from sqlalchemy import create_engine, Column, Integer, String, Text, Date, Boolean
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
+from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
+
+# Create a base class for declarative models
+Base = declarative_base()
+
+# Define a SQLAlchemy model for the events table
+
+
+class Event(Base):
+    __tablename__ = "events"
+    id = Column(Integer, primary_key=True, index=True)
+    event_name = Column(String, index=True)
+    event_description = Column(Text)
+    event_date = Column(Date)
+
+
+class User(Base):
+    __tablename__ = "users"  # Specify the table name
+    id = Column(Integer, primary_key=True, index=True)
+    userId = Column(String, index=True)
+    Component = Column(String, index=True)
+    timeStamp = Column(String, index=True)
+    deviceType = Column(String, index=True)
+    userAgent = Column(String, index=True)
+    platform = Column(String, index=True)
+    language = Column(String, index=True)
+    cookieEnabled = Column(Boolean, index=True)  # Use Boolean type
+    onLine = Column(Boolean, index=True)
+    width = Column(Integer, index=True)
+    height = Column(Integer, index=True)
+
+
+# Database connection string
+db_url = "postgresql://postgres:omer200198@localhost:5432/ciq"
+
+# Create a database engine
+engine = create_engine(db_url)
+
+# Create the database tables based on the models
+Base.metadata.create_all(bind=engine)
+
+# Create a session factory
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+# Create a FastAPI instance
+app = FastAPI()
+
+# CORS configuration
+origins = [
+    # Update with the actual origin(s) of your frontend
+    "http://localhost:3000",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],  # You can restrict this to specific HTTP methods
+    allow_headers=["*"],  # You can restrict this to specific headers
+)
+
+# Define a Pydantic model for the event data
+
+
+class EventCreate(BaseModel):
+    event_name: str
+    event_description: str
+    event_date: str
+
+
+class UserCreate(BaseModel):
+    userId: str
+    Component: str
+    timeStamp: str
+    deviceType: str
+    userAgent: str
+    platform: str
+    language: str
+    cookieEnabled: bool
+    onLine: bool
+    width: int
+    height: int
+
+
+# API endpoint to create a new event
+@app.post("/events/")
+async def create_event(event_data: EventCreate):
+    db_event = Event(**event_data.dict())
+    db = SessionLocal()
+    db.add(db_event)
+    db.commit()
+    db.refresh(db_event)
+    db.close()
+    return db_event
+
+
+@app.post("/users/")
+async def create_user(user_data: UserCreate):
+    db_user = User(**user_data.dict())  # Use the User model here
+    db = SessionLocal()
+    db.add(db_user)
+    db.commit()
+    db.refresh(db_user)
+    db.close()
+    return db_user
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="localhost", port=4000)

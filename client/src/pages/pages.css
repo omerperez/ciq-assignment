@@ -1,0 +1,45 @@
+.page-layout {
+  padding: 16px;
+}
+
+.page-layout h1 {
+  font-size: 32px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.page-content {
+  padding: 0 32px;
+}
+
+.page-content h2 {
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.page-content p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.page-content img {
+  border-radius: 50%;
+  border: solid 1px #00b0ff;
+  margin-left: 20px;
+  padding: 3px;
+}
+
+.page-content .container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.dashboard-page {
+  font-size: 96px;
+  text-align: center;
+  margin-top: 10%;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
